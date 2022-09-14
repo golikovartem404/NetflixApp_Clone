@@ -14,3 +14,10 @@ By clicking on a cell with a movie, we go to the movie preview screen with a tra
 
 ![imgonline-com-ua-Resize-t3TXqJkvdTaXTdl](https://user-images.githubusercontent.com/109585128/190151470-b091c191-77a5-48cf-83e8-0ac06a9667ad.jpg)
 
+On the search tab, we can find the movia and watch its preview
+
+![imgonline-com-ua-Resize-mwao8fnDT95](https://user-images.githubusercontent.com/109585128/190152303-9f6dde00-4dd9-4ba9-97aa-322cdee268cc.jpg)
+
+By long pressing on the cell, we can call the context menu and add the movie to downloads
+
+![imgonline-com-ua-Resize-M1x4Smc5wOnFj](https://user-images.githubusercontent.com/109585128/190152538-ad201d44-ff92-4fe7-b3db-91ba1ec785c8.jpg)
