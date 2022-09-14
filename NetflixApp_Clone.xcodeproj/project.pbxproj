@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9C1554C728D1F527008D31C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1554C628D1F527008D31C5 /* AppDelegate.swift */; };
 		9C1554C928D1F527008D31C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1554C828D1F527008D31C5 /* SceneDelegate.swift */; };
-		9C1554CB28D1F527008D31C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1554CA28D1F527008D31C5 /* ViewController.swift */; };
 		9C1554D028D1F528008D31C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1554CF28D1F528008D31C5 /* Assets.xcassets */; };
 		9C1554DF28D1F69E008D31C5 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1554DE28D1F69E008D31C5 /* APICall.swift */; };
 		9C1554E228D1F6CE008D31C5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1554E128D1F6CE008D31C5 /* Extensions.swift */; };
@@ -39,7 +38,6 @@
 		9C1554C328D1F527008D31C5 /* NetflixApp_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixApp_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1554C628D1F527008D31C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C1554C828D1F527008D31C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C1554CA28D1F527008D31C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C1554CF28D1F528008D31C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C1554D428D1F528008D31C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1554DE28D1F69E008D31C5 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 			children = (
 				9C1554DB28D1F669008D31C5 /* Sources */,
 				9C1554DA28D1F632008D31C5 /* Configuration */,
-				9C1554CA28D1F527008D31C5 /* ViewController.swift */,
 			);
 			path = NetflixApp_Clone;
 			sourceTree = "<group>";
@@ -298,7 +295,6 @@
 				9C1554F528D1F892008D31C5 /* TitleTableViewCell.swift in Sources */,
 				9C1554E228D1F6CE008D31C5 /* Extensions.swift in Sources */,
 				9C15550A28D1F9A4008D31C5 /* HomeViewController.swift in Sources */,
-				9C1554CB28D1F527008D31C5 /* ViewController.swift in Sources */,
 				9C15550228D1F95D008D31C5 /* SearchResultsViewController.swift in Sources */,
 				9C1554C728D1F527008D31C5 /* AppDelegate.swift in Sources */,
 				9C1554F128D1F882008D31C5 /* TableHeaderView.swift in Sources */,
