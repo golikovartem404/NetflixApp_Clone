@@ -32,6 +32,7 @@
 		9C15550C28D1F9B1008D31C5 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550B28D1F9B1008D31C5 /* UpcomingViewController.swift */; };
 		9C15550E28D1F9BA008D31C5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550D28D1F9BA008D31C5 /* SearchViewController.swift */; };
 		9C15551028D1F9C2008D31C5 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550F28D1F9C2008D31C5 /* DownloadsViewController.swift */; };
+		9C15551328D1FBC9008D31C5 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9C15551228D1FBC9008D31C5 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 			files = (
 				9C1554FD28D1F8D9008D31C5 /* SnapKit in Frameworks */,
 				9C1554FA28D1F8CA008D31C5 /* SDWebImageMapKit in Frameworks */,
+				9C15551328D1FBC9008D31C5 /* SDWebImage in Frameworks */,
 				9C1554F828D1F8CA008D31C5 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +231,7 @@
 				9C1554F728D1F8CA008D31C5 /* SDWebImage */,
 				9C1554F928D1F8CA008D31C5 /* SDWebImageMapKit */,
 				9C1554FC28D1F8D9008D31C5 /* SnapKit */,
+				9C15551228D1FBC9008D31C5 /* SDWebImage */,
 			);
 			productName = NetflixApp_Clone;
 			productReference = 9C1554C328D1F527008D31C5 /* NetflixApp_Clone.app */;
@@ -261,6 +264,7 @@
 			packageReferences = (
 				9C1554F628D1F8CA008D31C5 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				9C1554FB28D1F8D9008D31C5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				9C15551128D1FBC9008D31C5 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 9C1554C428D1F527008D31C5 /* Products */;
 			projectDirPath = "";
@@ -510,7 +514,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
-				branch = master;
+				branch = develop;
 				kind = branch;
 			};
 		};
@@ -519,6 +523,14 @@
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
 				branch = develop;
+				kind = branch;
+			};
+		};
+		9C15551128D1FBC9008D31C5 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
 				kind = branch;
 			};
 		};
@@ -539,6 +551,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9C1554FB28D1F8D9008D31C5 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		9C15551228D1FBC9008D31C5 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C1554F628D1F8CA008D31C5 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
