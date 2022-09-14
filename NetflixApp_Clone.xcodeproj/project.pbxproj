@@ -24,6 +24,14 @@
 		9C1554F828D1F8CA008D31C5 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9C1554F728D1F8CA008D31C5 /* SDWebImage */; };
 		9C1554FA28D1F8CA008D31C5 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9C1554F928D1F8CA008D31C5 /* SDWebImageMapKit */; };
 		9C1554FD28D1F8D9008D31C5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9C1554FC28D1F8D9008D31C5 /* SnapKit */; };
+		9C15550228D1F95D008D31C5 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550128D1F95D008D31C5 /* SearchResultsViewController.swift */; };
+		9C15550428D1F964008D31C5 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550328D1F964008D31C5 /* TitlePreviewViewController.swift */; };
+		9C15550628D1F997008D31C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550528D1F997008D31C5 /* LoginViewController.swift */; };
+		9C15550828D1F99E008D31C5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550728D1F99E008D31C5 /* TabBarViewController.swift */; };
+		9C15550A28D1F9A4008D31C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550928D1F9A4008D31C5 /* HomeViewController.swift */; };
+		9C15550C28D1F9B1008D31C5 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550B28D1F9B1008D31C5 /* UpcomingViewController.swift */; };
+		9C15550E28D1F9BA008D31C5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550D28D1F9BA008D31C5 /* SearchViewController.swift */; };
+		9C15551028D1F9C2008D31C5 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C15550F28D1F9C2008D31C5 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +51,14 @@
 		9C1554F028D1F882008D31C5 /* TableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
 		9C1554F228D1F88A008D31C5 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		9C1554F428D1F892008D31C5 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		9C15550128D1F95D008D31C5 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		9C15550328D1F964008D31C5 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		9C15550528D1F997008D31C5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9C15550728D1F99E008D31C5 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9C15550928D1F9A4008D31C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C15550B28D1F9B1008D31C5 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		9C15550D28D1F9BA008D31C5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9C15550F28D1F9C2008D31C5 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,7 @@
 		9C1554DB28D1F669008D31C5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9C1554FE28D1F943008D31C5 /* Controllers */,
 				9C1554ED28D1F86A008D31C5 /* Views */,
 				9C1554E828D1F7F9008D31C5 /* ViewModels */,
 				9C1554E328D1F6DF008D31C5 /* Models */,
@@ -159,6 +176,37 @@
 				9C1554F428D1F892008D31C5 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9C1554FE28D1F943008D31C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C1554FF28D1F948008D31C5 /* General */,
+				9C15550028D1F94D008D31C5 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C1554FF28D1F948008D31C5 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				9C15550128D1F95D008D31C5 /* SearchResultsViewController.swift */,
+				9C15550328D1F964008D31C5 /* TitlePreviewViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		9C15550028D1F94D008D31C5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9C15550528D1F997008D31C5 /* LoginViewController.swift */,
+				9C15550728D1F99E008D31C5 /* TabBarViewController.swift */,
+				9C15550928D1F9A4008D31C5 /* HomeViewController.swift */,
+				9C15550B28D1F9B1008D31C5 /* UpcomingViewController.swift */,
+				9C15550D28D1F9BA008D31C5 /* SearchViewController.swift */,
+				9C15550F28D1F9C2008D31C5 /* DownloadsViewController.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,14 +289,22 @@
 			files = (
 				9C1554EF28D1F879008D31C5 /* CollectionViewTableViewCell.swift in Sources */,
 				9C1554EC28D1F812008D31C5 /* TitlePreviewViewModel.swift in Sources */,
+				9C15551028D1F9C2008D31C5 /* DownloadsViewController.swift in Sources */,
+				9C15550428D1F964008D31C5 /* TitlePreviewViewController.swift in Sources */,
 				9C1554F528D1F892008D31C5 /* TitleTableViewCell.swift in Sources */,
 				9C1554E228D1F6CE008D31C5 /* Extensions.swift in Sources */,
+				9C15550A28D1F9A4008D31C5 /* HomeViewController.swift in Sources */,
 				9C1554CB28D1F527008D31C5 /* ViewController.swift in Sources */,
+				9C15550228D1F95D008D31C5 /* SearchResultsViewController.swift in Sources */,
 				9C1554C728D1F527008D31C5 /* AppDelegate.swift in Sources */,
 				9C1554F128D1F882008D31C5 /* TableHeaderView.swift in Sources */,
+				9C15550E28D1F9BA008D31C5 /* SearchViewController.swift in Sources */,
+				9C15550828D1F99E008D31C5 /* TabBarViewController.swift in Sources */,
 				9C1554DF28D1F69E008D31C5 /* APICall.swift in Sources */,
+				9C15550C28D1F9B1008D31C5 /* UpcomingViewController.swift in Sources */,
 				9C1554E528D1F6ED008D31C5 /* Title.swift in Sources */,
 				9C1554EA28D1F805008D31C5 /* TitleViewModel.swift in Sources */,
+				9C15550628D1F997008D31C5 /* LoginViewController.swift in Sources */,
 				9C1554F328D1F88A008D31C5 /* TitleCollectionViewCell.swift in Sources */,
 				9C1554E728D1F707008D31C5 /* YouTubeSearchResponse.swift in Sources */,
 				9C1554C928D1F527008D31C5 /* SceneDelegate.swift in Sources */,
